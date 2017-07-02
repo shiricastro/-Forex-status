@@ -12,6 +12,7 @@ button.button-convert{
 .panel-default {
     border-color: gray;
     border-radius: 10px;
+    overflow: hidden;
 }
 .panel-heading{
     border-radius: 10px 10px 0 0;
@@ -61,32 +62,12 @@ div.alert{
     font-size: 15px;
     color: white;
     font-weight: bold;
-    background-color: black;
-    border: white;
+    background-color: #7a111b;
     padding: 8px;
-    width: 120px;
+    width: 150px;
     text-align: center;
     transform: rotate(50deg);
-    top: 1.6rem;
-    right: -2.4em;
-    z-index: 100;
     position: absolute;
-}
-.wrapper:before {
-    content: '';
-    position: absolute;
-    border-bottom: 35px solid transparent;
-    border-left: 29px solid white;
-    z-index: 1;
-    top: 0px;
-    left: 0px;
-}
-.wrapper:after {
-    content: '';
-    position: absolute;
-    border-bottom: 35px solid transparent;
-    border-right: 42px solid white;
-    z-index: 10;
-    top: 0px;
-    right: 0px;
+    top: 2.2rem;
+    right: -2.8em;
 }
